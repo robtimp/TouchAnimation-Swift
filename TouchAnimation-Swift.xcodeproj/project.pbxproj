@@ -13,6 +13,7 @@
 		E951BBB01B14FD96002FE8A2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E951BBAF1B14FD96002FE8A2 /* Images.xcassets */; };
 		E951BBB31B14FD96002FE8A2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E951BBB11B14FD96002FE8A2 /* LaunchScreen.xib */; };
 		E951BBBF1B14FD96002FE8A2 /* TouchAnimation_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E951BBBE1B14FD96002FE8A2 /* TouchAnimation_SwiftTests.swift */; };
+		E951BBC91B14FDC9002FE8A2 /* CircleGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E951BBC81B14FDC9002FE8A2 /* CircleGradient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		E951BBB81B14FD96002FE8A2 /* TouchAnimation-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TouchAnimation-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E951BBBD1B14FD96002FE8A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E951BBBE1B14FD96002FE8A2 /* TouchAnimation_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchAnimation_SwiftTests.swift; sourceTree = "<group>"; };
+		E951BBC81B14FDC9002FE8A2 /* CircleGradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleGradient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				E951BBA81B14FD96002FE8A2 /* AppDelegate.swift */,
 				E951BBAA1B14FD96002FE8A2 /* ViewController.swift */,
+				E951BBC81B14FDC9002FE8A2 /* CircleGradient.swift */,
 				E951BBAC1B14FD96002FE8A2 /* Main.storyboard */,
 				E951BBAF1B14FD96002FE8A2 /* Images.xcassets */,
 				E951BBB11B14FD96002FE8A2 /* LaunchScreen.xib */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E951BBC91B14FDC9002FE8A2 /* CircleGradient.swift in Sources */,
 				E951BBAB1B14FD96002FE8A2 /* ViewController.swift in Sources */,
 				E951BBA91B14FD96002FE8A2 /* AppDelegate.swift in Sources */,
 			);
